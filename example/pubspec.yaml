@@ -8,7 +8,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  openvpn_flutter: 
+  flutter_openvpn_plugin:
     path: ../ 
   cupertino_icons: ^1.0.2
 

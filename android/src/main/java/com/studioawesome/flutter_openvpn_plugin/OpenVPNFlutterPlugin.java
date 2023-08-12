@@ -1,4 +1,4 @@
-package id.laskarmedia.openvpn_flutter;
+package com.studioawesome.flutter_openvpn_plugin;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -30,9 +30,9 @@ public class OpenVPNFlutterPlugin implements FlutterPlugin, ActivityAware {
     private EventChannel.EventSink vpnStageSink;
 //    private EventChannel.EventSink vpnStatusSink;
 
-    private static final String EVENT_CHANNEL_VPN_STAGE = "id.laskarmedia.openvpn_flutter/vpnstage";
-    //    private static final String EVENT_CHANNEL_VPN_STATUS = "id.laskarmedia.openvpn_flutter/vpnstatus";
-    private static final String METHOD_CHANNEL_VPN_CONTROL = "id.laskarmedia.openvpn_flutter/vpncontrol";
+    private static final String EVENT_CHANNEL_VPN_STAGE = "com.studioawesome.flutter_openvpn_plugin/vpnstage";
+    //    private static final String EVENT_CHANNEL_VPN_STATUS = "com.studioawesome.flutter_openvpn_plugin/vpnstatus";
+    private static final String METHOD_CHANNEL_VPN_CONTROL = "com.studioawesome.flutter_openvpn_plugin/vpncontrol";
 
     private static String config = "", username = "", password = "", name = "";
 

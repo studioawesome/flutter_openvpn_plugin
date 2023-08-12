@@ -1,4 +1,4 @@
-group 'com.studioawesome.flutteropenvpnplugin'
+group 'com.studioawesome.flutter_openvpn_plugin'
 version '1.0'
 
 buildscript {

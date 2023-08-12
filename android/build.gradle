@@ -46,6 +46,6 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.studioawesome:flutter_openvpn_library:1.0'
+    implementation 'com.github.studioawesome:flutter_openvpn_library:e7dd57d1071acef127fe15257c1910e9641967ff'
 
 }

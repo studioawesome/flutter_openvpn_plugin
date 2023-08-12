@@ -34,6 +34,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 33
+    namespace "com.studioawesome.flutter_openvpn_plugin"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

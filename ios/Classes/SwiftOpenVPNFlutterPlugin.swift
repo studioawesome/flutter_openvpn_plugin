@@ -5,8 +5,8 @@ import NetworkExtension
 public class SwiftOpenVPNFlutterPlugin: NSObject, FlutterPlugin {
     private static var utils : VPNUtils! = VPNUtils()
     
-    private static var EVENT_CHANNEL_VPN_STAGE : String = " com.studioawesome.openvpn_flutter.openvpn_flutter/vpnstage"
-    private static var METHOD_CHANNEL_VPN_CONTROL : String = " com.studioawesome.openvpn_flutter.openvpn_flutter/vpncontrol"
+    private static var EVENT_CHANNEL_VPN_STAGE : String = "com.studioawesome.flutter_openvpn_plugin/vpnstage"
+    private static var METHOD_CHANNEL_VPN_CONTROL : String = "com.studioawesome.flutter_openvpn_plugin/vpncontrol"
      
     public  static var stage: FlutterEventSink?
     private var initialized : Bool = false

@@ -14,6 +14,8 @@ enum VPNStage {
   connected,
   disconnected,
   disconnecting,
+  idle,
+  invalid,
   denied,
   error,
 // ignore: constant_identifier_names
@@ -251,10 +253,7 @@ class OpenVPN {
 
   ///Private function to convert String to VPNStage
   static VPNStage _strToStage(String? stage) {
-    if (stage == null ||
-        stage.trim().isEmpty ||
-        stage.trim() == "idle" ||
-        stage.trim() == "invalid") {
+    if (stage == null || stage.trim().isEmpty) {
       return VPNStage.disconnected;
     }
     var indexStage = VPNStage.values.indexWhere((element) => element
